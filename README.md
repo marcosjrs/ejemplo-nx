@@ -29,6 +29,9 @@
 `npx nx g @nx/angular:library libs/data-access`
 `npx nx g @nx/js:lib libs/types`
 
+**Para ver las dependecias:**
+`npx nx graph`
+
 **Para crear una librería officialmente**
 
 ```sh
