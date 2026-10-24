@@ -1,8 +1,8 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcome } from './nx-welcome';
-// import { ProductService } from '@org/data-access';
-// import { Product } from '@org/types';
+import { ProductService } from '@org/data-access';
+import { ProductsResponse } from '@org/types';
 
 @Component({
   imports: [NxWelcome, RouterModule],
@@ -12,11 +12,10 @@ import { NxWelcome } from './nx-welcome';
 })
 export class App {
   protected title = 'admin';
-  // private readonly productService = inject(ProductService);
-  // protected products = signal<Product[]>([]);
-  // ngOnInit(): void {
-  //   this.productService.getProducts().subscribe((res) => {
-  //     this.products.set(res.data);
-  //   });
-  // }
+  private readonly productService = inject(ProductService);
+  ngOnInit(): void {
+    this.productService.getProducts().subscribe((res: ProductsResponse) => {
+      console.log(res.data);
+    });
+  }
 }
