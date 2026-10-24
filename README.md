@@ -1,14 +1,25 @@
 # New Nx Repository
 
-<a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
-
-✨ Your new, shiny [Nx workspace](https://nx.dev) is ready ✨.
-
 [Learn more about this workspace setup and its capabilities](https://nx.dev/docs/technologies/typescript/introduction?utm_source=nx_project&utm_medium=readme&utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
 
 🚀 If you haven't connected to Nx Cloud yet, [complete your setup here](https://cloud.nx.app/get-started). Get faster builds with remote caching, distributed task execution, and self-healing CI. [See how your workspace can benefit](#nx-cloud).
 
-## Generate a library
+## Ejecuciones realizadas:
+
+**Para crear el proyecto:**
+
+`npx create-nx-workspace@latest`
+
+**Para agregar angular:**
+
+`npx nx add @nx/angular`
+
+**Para crear las aplicaciones:**
+
+`nx g @nx/angular:app apps/admin`
+`nx g @nx/angular:app apps/website`
+
+## Para crear una librería
 
 ```sh
 npx nx g @nx/js:lib packages/pkg1 --publishable --importPath=@my-org/pkg1
