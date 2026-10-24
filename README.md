@@ -32,6 +32,9 @@
 **Para ver las dependecias:**
 `npx nx graph`
 
+**Para añadir posibilidad de añadir nest:**
+`nx add @nx/nest`
+
 **Para crear una librería officialmente**
 
 ```sh
