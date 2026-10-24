@@ -33,7 +33,11 @@
 `npx nx graph`
 
 **Para añadir posibilidad de añadir nest:**
-`nx add @nx/nest`
+`npx nx add @nx/nest`
+
+**Añadir aplicación de nest:**
+`npx nx g @nx/nest:app apps/api`
+`npx nx serve api`
 
 **Para crear una librería officialmente**
 
