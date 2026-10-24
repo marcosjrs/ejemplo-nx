@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NxWelcome } from './nx-welcome';
-// import { ProductService, Product } from '@org/data-access';
+// import { ProductService } from '@org/data-access';
+// import { Product } from '@org/types';
 
 @Component({
   imports: [NxWelcome, RouterModule],

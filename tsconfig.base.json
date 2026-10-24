@@ -19,7 +19,8 @@
     "noUncheckedSideEffectImports": false,
     "types": ["*"],
     "paths": {
-      "@org/data-access": ["./libs/data-access/src/index.ts"]
+      "@org/data-access": ["./libs/data-access/src/index.ts"],
+      "@org/types": ["./libs/types/src/index.ts"]
     }
   }
 }

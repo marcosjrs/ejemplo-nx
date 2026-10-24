@@ -24,8 +24,10 @@
 `npx nx serve admin`
 `npx nx serve website --port=4201`
 
-**Para crear una librería:**
+**Para crear una librerías:**
+
 `npx nx g @nx/angular:library libs/data-access`
+`npx nx g @nx/js:lib libs/types`
 
 **Para crear una librería officialmente**
 
