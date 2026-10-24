@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "composite": true,
+    "composite": false,
     "declarationMap": true,
     "importHelpers": true,
     "isolatedModules": true,
@@ -17,6 +17,9 @@
     "target": "es2022",
     "customConditions": ["@org/source"],
     "noUncheckedSideEffectImports": false,
-    "types": ["*"]
+    "types": ["*"],
+    "paths": {
+      "@org/data-access": ["./libs/data-access/src/index.ts"]
+    }
   }
 }
