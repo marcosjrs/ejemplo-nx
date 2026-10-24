@@ -16,8 +16,13 @@
 
 **Para crear las aplicaciones:**
 
-`nx g @nx/angular:app apps/admin`
-`nx g @nx/angular:app apps/website`
+`npx nx g @nx/angular:app apps/admin`
+`npx nx g @nx/angular:app apps/website`
+
+**Para correr las aplicaciones:**
+
+`npx nx serve admin`
+`npx nx serve website --port=4201`
 
 ## Para crear una librería
 
