@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
+import { NxWelcome } from '@org/ui';
 
 @Component({
   imports: [NxWelcome, RouterModule],

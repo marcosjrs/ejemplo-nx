@@ -78,6 +78,7 @@
       "unitTestRunner": "vitest-angular"
     },
     "@nx/angular:library": {
+      "linter": "eslint",
       "unitTestRunner": "jest"
     },
     "@nx/angular:component": {

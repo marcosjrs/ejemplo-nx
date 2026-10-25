@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
+import { NxWelcome } from '@org/ui';
 import { ProductService } from '@org/data-access';
 import { ProductsResponse } from '@org/types';
 
